@@ -69,7 +69,15 @@ export default {
 </template>
 
 <style scoped>
+#works{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
 
+#Graphic{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
 
 NavBar{
   background-color: rgb(213, 173, 156);

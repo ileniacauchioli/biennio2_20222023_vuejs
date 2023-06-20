@@ -4,7 +4,7 @@
 
 
 <template>
-      <nav class="navbar bg-danger-subtle navbar-expand-lg">
+      <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
       <a class="navbar-brand" href="#" >
       <img class="logo" src="@/assets/logoile.png" alt="Logo"/>
@@ -32,7 +32,11 @@
 <style scoped>
 .logo {
   position: static;
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
+}
+
+.navbar{
+  background-color:  rgb(202, 170, 156);
 }
 </style>

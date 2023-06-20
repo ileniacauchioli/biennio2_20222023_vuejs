@@ -14,6 +14,11 @@
 </template>
 
 <style scoped>
+
+header{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
 .logo{
   position: static;
   width: 100px;
