@@ -7,6 +7,12 @@ import Footer from './components/Footer.vue'
 import contentsData from './assets/contents.json'
 import NavBar from './components/NavBar.vue'
 import Graphic from './components/Graphic.vue'
+import Hero from './components/Hero.vue'
+import About from './components/About.vue'
+import servizi from './components/servizi.vue'
+import fotografia from './components/fotografia.vue'
+
+
 
 export default {
   data() {
@@ -21,6 +27,10 @@ export default {
     Footer,
     NavBar,
     Graphic,
+    Hero,
+    About,
+    servizi,
+    fotografia,
   },
 };
 
@@ -29,6 +39,23 @@ export default {
 <template>
   <main>
     <NavBar />
+    <Hero />
+    <About/>
+    <servizi/>
+
+    <Graphic/>
+       <div id="Graphic" class="row">
+          <div class="col-12 col-md-3" v-for="work in contents.graphic" :key="work.id">
+             <PortfolioItem 
+              :title="work.title"
+              :abstract="work.description"
+              :imageUrl="work.image_thumbnail"
+            />
+          </div>
+        </div>
+
+        <fotografia/>
+
     <Header />
 
     <div id="works" class="row">
@@ -41,16 +68,7 @@ export default {
       </div>
     </div>
 
-    <Graphic/>
-     <div id="Graphic" class="row">
-        <div class="col-12 col-md-3" v-for="work in contents.graphic" :key="work.id">
-           <PortfolioItem 
-            :title="work.title"
-            :abstract="work.description"
-            :imageUrl="work.image_thumbnail"
-          />
-        </div>
-      </div>
+    
 
 
     <div id="social-links" class="row">
@@ -75,8 +93,8 @@ export default {
 }
 
 #Graphic{
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 NavBar{

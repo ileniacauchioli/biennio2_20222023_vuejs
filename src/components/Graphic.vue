@@ -5,29 +5,22 @@
 <template>
    
   <header>
-    <div class="wrapper">
-  <h2>Graphic Design</h2>
-  <p>In seguito alla laurea in fotografia ho intrapreso un biennio di Digital Design e Comunication per ampliare le mie conoscenze. 
-    </p>
-    </div>
+  <div class="wrapper d-flex">
+      <div class="row justify-content-start">
+        <H2>Gallery</H2>
+      </div>
+      </div>
   </header>
 </template>
 
 <style scoped>
 
 header{
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
-.logo{
-  position: static;
-  width: 100px;
-  height: 100px;
-}
-
 .wrapper{
-  position: relative;
-  padding-right: 30%;
-  margin-top: 2rem;
-}
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  }
 </style>
