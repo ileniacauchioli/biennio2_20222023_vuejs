@@ -3,7 +3,6 @@
 import Header from './components/Header.vue'
 import PortfolioItem from './components/PortfolioItem.vue'
 import SocialLink from './components/SocialLink.vue'
-import Footer from './components/Footer.vue'
 import contentsData from './assets/contents.json'
 import NavBar from './components/NavBar.vue'
 import Graphic from './components/Graphic.vue'
@@ -11,6 +10,9 @@ import Hero from './components/Hero.vue'
 import About from './components/About.vue'
 import servizi from './components/servizi.vue'
 import fotografia from './components/fotografia.vue'
+import contatti from './components/contatti.vue'
+import sezionefooter from './components/sezionefooter.vue'
+
 
 
 
@@ -24,13 +26,14 @@ export default {
     Header,
     PortfolioItem,
     SocialLink,
-    Footer,
     NavBar,
     Graphic,
     Hero,
     About,
     servizi,
     fotografia,
+    contatti,
+    sezionefooter,
   },
 };
 
@@ -82,7 +85,8 @@ export default {
         </li>
       </ul>
     </div>
-    <Footer/>
+    <contatti/>
+    <sezionefooter/>
   </main>
 </template>
 
@@ -91,10 +95,8 @@ export default {
   padding-left: 4rem;
   padding-right: 4rem;
 }
-#work.image_thumbnail{
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
+
+
 #Graphic{
   padding-left: 4rem;
   padding-right: 4rem;
@@ -131,4 +133,6 @@ header {
     flex-wrap: wrap;
   }
 }
+
+
 </style>
