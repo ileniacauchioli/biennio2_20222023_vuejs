@@ -9,7 +9,7 @@
 
   <div class="wrapper d-flex">
     <div class="row justify-content-start">
-      <H2>Fotorafia</H2>
+      <H2>Gallery</H2>
       <p class="w-75 p-3">
     Ho da sempre nutrito un profondo amore per la fotografia e la sua  capacità di immortalare istanti che rimarranno indelebili nel tempo.
     Amo trascorrere del tempo con le persone, perché sono convinta che ognuna di esse possa regalarmi qualcosa di unico, qualcosa che porterò con me.
@@ -22,12 +22,13 @@
 
 <style scoped>
 header{
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem; 
 }
 .wrapper{
-  margin-top: 4rem;
+  margin-top: 2rem;
   margin-bottom: 4rem;
+  
 }
 
 

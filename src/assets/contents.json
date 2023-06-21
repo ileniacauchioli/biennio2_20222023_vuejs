@@ -24,15 +24,6 @@
       "url": "https://www.google.com"
     },
     {
-      "id": 2,
-      "title": "Baby Shooting",
-      "description": "Ricordi di infanzia",
-      "image_thumbnail": "./src/assets/alice.png",
-      "image_detail": "./src/assets/alice.png",
-      "client": "Client 1",
-      "url": "https://www.google.com"
-    },
-    {
       "id": 3,
       "title": "Maternity",
       "description": "Ricorda i momenti di attesa e di gioia della tua gravidanza.",
@@ -42,11 +33,38 @@
       "url": "https://www.google.com"
     },
     {
+      "id": 2,
+      "title": "Baby Shooting",
+      "description": "Ricordi di infanzia",
+      "image_thumbnail": "./src/assets/alice.png",
+      "image_detail": "./src/assets/alice.png",
+      "client": "Client 1",
+      "url": "https://www.google.com"
+    },
+    {
       "id": 4,
-      "title": "Ricordi Speciali, Persone Speciali",
-      "description": "Progetto fotografico a tema Patrimonio/Patrimoni, selezionato al Brescia Photo Festival",
-      "image_thumbnail": "./src/assets/Rectangle 28.png",
-      "image_detail": "./src/assets/Rectangle 28.png",
+      "title": "Fashion Photography",
+      "description": "Fotografie di moda in giro per la città",
+      "image_thumbnail": "./src/assets/moda.png",
+      "image_detail": "./src/assets/moda.png",
+      "client": "Client 1",
+      "url": "https://www.google.com"
+    },
+      {
+        "id": 4,
+        "title": "Ricordi Speciali, Persone Speciali",
+        "description": "Progetto fotografico a tema Patrimonio/Patrimoni, selezionato al Brescia Photo Festival",
+        "image_thumbnail": "./src/assets/Rectangle 28.png",
+        "image_detail": "./src/assets/Rectangle 28.png",
+        "client": "Client 1",
+        "url": "https://www.google.com"
+      },
+    {
+      "id": 4,
+      "title": "Tributo a Brito",
+      "description": "Progetto fotografico, tributo a Brito",
+      "image_thumbnail": "./src/assets/brito.png",
+      "image_detail": "./src/assets/brito.png",
       "client": "Client 1",
       "url": "https://www.google.com"
     }
@@ -85,6 +103,24 @@
       "description": "Applicazione per i ritardatari cronici, scuse divertenti da inviare a chi vuoi!",
       "image_thumbnail": "./src/assets/scuse.png",
       "image_detail": "./src/assets/scuse.png",
+      "client": "Client 1",
+      "url": "https://www.google.com"
+    },
+    {
+      "id": 4,
+      "title": "Gin Malfy",
+      "description": "Applicazione per i ritardatari cronici, scuse divertenti da inviare a chi vuoi!",
+      "image_thumbnail": "./src/assets/GinMalfy1.png",
+      "image_detail": "./src/assets/GinMalfy1.png",
+      "client": "Client 1",
+      "url": "https://www.google.com"
+    },
+    {
+      "id": 4,
+      "title": "Curriculum online",
+      "description": "Smart Curriculum mobile first",
+      "image_thumbnail": "./src/assets/Curriculum.png",
+      "image_detail": "./src/assets/Curriculum.png",
       "client": "Client 1",
       "url": "https://www.google.com"
     }

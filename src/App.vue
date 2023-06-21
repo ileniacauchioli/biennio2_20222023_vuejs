@@ -45,7 +45,7 @@ export default {
 
     <Graphic/>
        <div id="Graphic" class="row">
-          <div class="col-12 col-md-3" v-for="work in contents.graphic" :key="work.id">
+          <div class="col-12 col-md-4" v-for="work in contents.graphic" :key="work.id">
              <PortfolioItem 
               :title="work.title"
               :abstract="work.description"
@@ -59,7 +59,7 @@ export default {
     <Header />
 
     <div id="works" class="row">
-      <div class="col-12 col-md-3" v-for="work in contents.works" :key="work.id">
+      <div class="col-12 col-md-4" v-for="work in contents.works" :key="work.id">
          <PortfolioItem 
           :title="work.title"
           :abstract="work.description"
@@ -88,10 +88,13 @@ export default {
 
 <style scoped>
 #works{
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
-
+#work.image_thumbnail{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
 #Graphic{
   padding-left: 4rem;
   padding-right: 4rem;
