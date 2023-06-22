@@ -29,10 +29,10 @@
 
 /* text css above hero image*/
 .hero_title {
-    font-size: 4.5rem;
+    font-size: 7vh;
 }
 .hero_desc {
-    font-size: 2rem;
+    font-size: 4vh;
 }
 .hero-text {
     text-align: center;

@@ -3,6 +3,11 @@
     <section id="services">
           <div class="container">
               <h1 class="text-left">Fotografia</h1>
+              <p class="w-75">
+        Ho da sempre nutrito un profondo amore per la fotografia e la sua  capacità di immortalare istanti che rimarranno indelebili nel tempo.
+        Amo trascorrere del tempo con le persone, perché sono convinta che ognuna di esse possa regalarmi qualcosa di unico, qualcosa che porterò con me.
+        La mia passione per la fotografia mi ha spinto a intraprendere un percorso accademico, dove ho potuto approfondire le tecniche, le teorie, le conoscenze e i segreti di questa meravigliosa forma d'arte. 
+        Sono sempre alla ricerca di nuove sfide e di modi creativi per esprimere la mia passione attraverso l'obiettivo.</p>
               <div class="row">
                   <div class="col-lg-4 mt-4">
                       <div class="card servicesText">

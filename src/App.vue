@@ -2,7 +2,6 @@
 
 import Header from './components/Header.vue'
 import PortfolioItem from './components/PortfolioItem.vue'
-import SocialLink from './components/SocialLink.vue'
 import contentsData from './assets/contents.json'
 import NavBar from './components/NavBar.vue'
 import Graphic from './components/Graphic.vue'
@@ -11,7 +10,7 @@ import About from './components/About.vue'
 import servizi from './components/servizi.vue'
 import fotografia from './components/fotografia.vue'
 import contatti from './components/contatti.vue'
-import sezionefooter from './components/sezionefooter.vue'
+import lastsection from './components/lastsection.vue'
 
 
 
@@ -25,7 +24,6 @@ export default {
   components: {
     Header,
     PortfolioItem,
-    SocialLink,
     NavBar,
     Graphic,
     Hero,
@@ -33,7 +31,7 @@ export default {
     servizi,
     fotografia,
     contatti,
-    sezionefooter,
+   lastsection,
   },
 };
 
@@ -48,7 +46,7 @@ export default {
 
     <Graphic/>
        <div id="Graphic" class="row">
-          <div class="col-12 col-md-4" v-for="work in contents.graphic" :key="work.id">
+          <div class="col-12 col-md-2" v-for="work in contents.graphic" :key="work.id">
              <PortfolioItem 
               :title="work.title"
               :abstract="work.description"
@@ -56,13 +54,13 @@ export default {
             />
           </div>
         </div>
-
+  
         <fotografia/>
 
     <Header />
 
     <div id="works" class="row">
-      <div class="col-12 col-md-4" v-for="work in contents.works" :key="work.id">
+      <div class="col-12 col-md-2" v-for="work in contents.works" :key="work.id">
          <PortfolioItem 
           :title="work.title"
           :abstract="work.description"
@@ -86,7 +84,7 @@ export default {
       </ul>
     </div>
     <contatti/>
-    <sezionefooter/>
+    <lastsection/>
   </main>
 </template>
 

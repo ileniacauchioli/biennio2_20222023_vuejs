@@ -19,7 +19,7 @@
                           <a class="nav-link" href="#home">Home</a>
                       </li>
                       <li class="nav-item">
-                          <a class="nav-link" href="#portfolio">Portfolio</a>
+                          <a class="nav-link" href="#services">Portfolio</a>
                       </li>
                       <li class="nav-item">
                           <a class="nav-link" href="#contact">Contact</a>

@@ -1,25 +1,34 @@
 
 <template>
-   <section id="contact">
-          <div class="container mt-3 contactContent">
-              <h1 class="text-left align-items">Contact Me</h1>
 
-                  <div class="col-lg-6">
-                      <!-- form fields -->
-                      <form>
-                          <input type="text" class="form-control form-control-lg" placeholder="Name">
-                          <input type="email" class="form-control mt-3" placeholder="Email">
-                          <input type="text" class="form-control mt-3" placeholder="Subject">
-                          <div class="mb-3 mt-3">
-                              <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
-                          </div>
-                      </form>
-                      <button type="button" class="btn btn-success mt-3">Send</button>
-                   </div>
+    <section id="contact">
+            <div class="container mt-3 contactContent">
+                <h1 class="text-left">Contact Me</h1>
 
-              </div>
+                <div class="row mt-4">
+                    <div class="col-lg-6">
+                        <img src="@/assets/ile_laurea.png" alt="">
+                    </div>
 
-      </section>
+                    <div class="col-lg-6">
+                        <!-- form fields -->
+                        <form>
+                            <input type="text" class="form-control form-control-lg" placeholder="Name">
+                            <input type="email" class="form-control mt-3" placeholder="Email">
+                            <input type="text" class="form-control mt-3" placeholder="Subject">
+                            <div class="mb-3 mt-3">
+                                <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
+                            </div>
+                        </form>
+                        <button type="button" class="btn btn mt-3">Contact Me</button>
+                    
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+   
 </template>
 
 <script>
@@ -27,23 +36,40 @@
 </script>
 
 <style scoped>
-.card{
-    background-color: rgb(202, 170, 156);
+
+
+img{
+    height: 300px;
+    width: 300px;
+    background-repeat: no-repeat;
+    align-items: start;
+    text-align: start;
+}
+#contact{
+    background-image: url("@/assets/cerchio2.svg");
+    background-position: 10%;
+    background-size:31%;
+    background-repeat: no-repeat;
+    text-align: center;
+    align-items: center;
 }
 
-.social-icons {
-    font-size: 36px;
-    cursor: pointer;
+.text-left{
+    padding-left: 17rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
 }
-.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
-    color: #8c6183;
+
+.form-control{
+font-size: 10pt;
 }
-.fab {
-    color: #000000;
+
+#contactme{
+    font-size: 25pt;
 }
-/* footer styling */
-#footer {
-    background-color: rgb(202, 170, 156);
-    text-align: center;
+.btn{
+    background-color: rgb(122, 90, 122);
+    color: white;
 }
+
 </style>
