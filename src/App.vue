@@ -48,8 +48,6 @@ export default {
        <div id="Graphic" class="row">
           <div class="col-12 col-md-2" v-for="work in contents.graphic" :key="work.id">
              <PortfolioItem 
-              :title="work.title"
-              :abstract="work.description"
               :imageUrl="work.image_thumbnail"
             />
           </div>
@@ -62,8 +60,6 @@ export default {
     <div id="works" class="row">
       <div class="col-12 col-md-2" v-for="work in contents.works" :key="work.id">
          <PortfolioItem 
-          :title="work.title"
-          :abstract="work.description"
           :imageUrl="work.image_thumbnail"
         />
       </div>
